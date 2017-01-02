@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reading Field values</title>
+</head>
+<body>
+    <form onsubmit="checkAddress('email');">
+        Email:
+        <input type="text" id="email">
+        <input type="submit" value="submit">
+    </form>
+    <script>
+      function  checkAddress(fieldId){
+            if(document.getElementById(fieldId).value=== "" ){
+                alert("Email Field is required.");
+
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Setting Field values</title>
+</head>
+<body>
+    <!--<form>
+    Zipcode:
+    <input type="text" id="zip" onBlur="fillcity();"><br>
+    City:
+    <input type="text" id="city">    
+    </form>
+    <script>
+        function fillcity(){
+            var cityName;
+            var zipValue = document.getElementById("zip").value;
+            switch(zipValue){
+            case "60608":
+            cityName = "chicago";
+            break;
+            case "60114":
+            cityName = "Omaha";
+            break;
+            case "53212":
+            cityName = "Milwaukee";
+            break;
+        }
+        document.getElementById("city").value=cityName;
+        }
+    </script>-->
+    <form>
+        Student Roll Number:
+        <!-- where n = name , d = depart , = s = semester -->
+        <input type="text" id="rollNum" onblur="nds();"><br><br>
+        Student Name:
+        <input type="text" id="stdName"><br><br>
+        Student Dept:
+        <input type="text" id="stdDept"><br><br>
+        Section:
+        <input type="text" id="stdSect">
+    </form>
+    <script>
+        function nds(){
+            var stdName,stdDept,stdSec;
+            var rollNumValue = document.getElementById("rollNum").value;
+            switch(rollNumValue){
+                case "080":
+                stdName = "Bilal";
+                stdDept = "Computer Science";
+                stdSec = "B";
+                break;
+                case "073":
+                stdName = "Tariq";
+                stdDept = "Computer Engineering";
+                stdSec = "A";
+                break;
+                case "090":
+                stdName = "Faizan";
+                stdDept = "Software Engineeing";
+                stdSec = "C";
+                break;
+                case "116":
+                stdName = "Manzar";
+                stdDept = "Telecom";
+                stdSec = "D";
+                break;
+
+            }
+            document.getElementById("stdName").value = stdName;
+            documet.getElementById("stdDept").value = stdDept;
+            document.getElementById("stdSect").value = stdSec;
+        }
+    </script>
+</body>
+</html>

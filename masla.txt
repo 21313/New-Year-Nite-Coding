@@ -1,0 +1,51 @@
+var myInput = prompt("Enter Some Text");
+myInput = myInput.length;
+for (var i = 0; i < myInput; i++) {
+    if (myInput.slice(i,i+2)) {
+        alert("No Double space");
+        break;
+    }
+}
+
+
+
+Q)Code an alert that displays the index number of the first character of a segment represented by a variable that occurs within a string represented by a second 
+variable.
+var x = "my name is bilal";
+A) alert(x.indexOf("name"));
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Code the last step in converting a pseudo-random number to a useful number. 
+Assign the result to the same variable that represents the number you're converting.
+
+a)var x = Math.random();
+  x = (x * 6) + 1;
+  x = Math.floor();
+  
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+ Generate a pseudo-random number and convert it to an integer ranging from 0 to 9999999999999999. Use the same variable, 
+which hasn't been declared beforehand, for both numbers.
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Code the last step in converting a pseudo-random number to a useful number. Assign the result to the same 
+variable that represents the number you're converting.(in sub sawalon mai ye log floor q use kr rhe hain Ceil bhi tw use kr skty thy)
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+Code the first line of an if statement that tests whether the clock is at an hour on the dot. Check minutes and then seconds. 
+Ignore milliseconds. Use any variable you like to represent the Date object.
